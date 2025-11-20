@@ -54,3 +54,31 @@ Object - object
 
  //JavaScript me data types runtime par decide hote hain,
  //  isliye ye dynamically typed language hai
+
+
+ /************************************************************* */ 
+
+ /* *****************MEMEORY******************/
+
+ //stack(primitive)-->>>  koi bhi declared variable ki copy milti h
+ //heap(non-primitive)-->> reference milta h original value ka, and original me change hota h
+
+ let mylife = "dreamFull"
+
+ let anotherLife = mylife
+ anotherLife = "chaiAurcode"
+
+console.log(mylife);
+ console.log(anotherLife);
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email= "nidhi@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
