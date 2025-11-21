@@ -58,27 +58,30 @@ Object - object
 
  /************************************************************* */ 
 
- /* *****************MEMEORY******************/
+ /* *****************MEMORY******************/
+ // 2 type ki mory hoti h
 
  //stack(primitive)-->>>  koi bhi declared variable ki copy milti h
  //heap(non-primitive)-->> reference milta h original value ka, and original me change hota h
 
  let mylife = "dreamFull"
 
- let anotherLife = mylife
+ let anotherLife = mylife      //reference dia h bhaiii 
  anotherLife = "chaiAurcode"
 
-console.log(mylife);
- console.log(anotherLife);
+console.log(mylife);           //o/p -->  dreamfull
+ console.log(anotherLife);     // o/p ---> chaiaurcode
+
+
 
 let userOne = {
     email: "user@google.com",
     upi : "user@ybl"
 }
 
-let userTwo = userOne;
+let userTwo = userOne;        //(userTwo ka sab user One ke equal ho gya okay)
 
-userTwo.email= "nidhi@google.com";
+userTwo.email= "nidhi@google.com";     //ab yaha user two ki email change kia h  
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userOne.email);     //  o/p--->>> userTwo ke equal hui h
+console.log(userTwo.email);     //  o/p --->  userTwo ke equal 
