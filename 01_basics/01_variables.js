@@ -3,7 +3,7 @@ let accountEmail="nidhi@amazon"
 var accountPassword = "12345"
 accountCity =  "Jipur"
 
-let accountState;  //<---- undefined
+let accountState;  //<---- undefined kyuki kuch given hi nhi h
 
 
  //accountId = 2     //error--> assignment to constant variables
