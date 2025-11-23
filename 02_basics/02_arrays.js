@@ -26,5 +26,16 @@ console.log(new_another_Arr);
 
 
 
+// WE USE IT MANY TIME-------------->>
+
+console.log(Array.isArray("Nidhi"))   //0/p --> false
+console.log(Array.from("Nidhi"))  // o/p -> convert nidhi into as an array
+console.log(Array.from({name : "hitesh"}))  // interesting case!!!!!!!
+
+let score1 =100;
+let score2 =200;
+let score3= 300;
+console.log(Array.of(score1,score2,score3)); 
+
 
 
