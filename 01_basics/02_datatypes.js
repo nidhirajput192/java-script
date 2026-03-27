@@ -12,8 +12,10 @@ let isLoggedIn= false
 
 //------>>types of data types
 /*
+======> Primitive datatypes
+
 number--> 2 to power 53
-bigint---> big number, lesa use able
+bigint---> big number, less use able
 string --> "" , ''
 boolean -> true, false
 null  ---> stand alone value(represenattaion of null value [khaali h])
@@ -23,7 +25,7 @@ object---> talk later
 
  */
 
-console.log(typeof "nidhi");    
+console.log(typeof "nidhi");    //<------string
 console.log(typeof null);        // <----- null ka type object
 console.log(typeof undefined);   // <----- undefined ka type undefined
 
