@@ -1,3 +1,9 @@
+/* 
+container ---->>> add dev container configuration ----->  node
+*/
+
+
+
 const accountId=144557      // <-------can't change const
 let accountEmail="nidhi@amazon"
 var accountPassword = "12345"
