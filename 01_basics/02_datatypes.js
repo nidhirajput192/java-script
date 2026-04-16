@@ -21,13 +21,13 @@ let isLoggedIn= false
 ======> Primitive datatypes
 
 number--> 2 to power 53
-bigint---> big number, less use able
+bigint---> big number, less useable
 string --> "" , ''
 boolean -> true, false
 null  ---> stand alone value(represenattaion of null value [khaali h]), null ko assign kar sakte h
 undefined --> value not define
 symbol---> talk about unique, unique ke liye hmesha symbol ki baat karte h
-object---> talk later
+object---> talk later......
 
  */
 
