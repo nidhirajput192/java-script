@@ -1,5 +1,5 @@
 //   decleration of string ----->>   " "  or  ' '
-//  example-->> "nidhi"
+//  example-->> "nidhi"  or 'nidhi'
 
 //   const gameName = new String('nidhi')
 //   string i sobject here not an array dont confuse
@@ -11,7 +11,11 @@
 const name ="nidhi"
 const marks = 50
 //console.log( name + 50 + "any value we want"); // not best approach to write
-//  -->  use backticks on place of (+)
+
+
+//-------->  use backticks on place of (+)
+
+
 console.log(`hello my name ${name} and my marks are ${marks}`);
 
 
@@ -28,14 +32,14 @@ console.log(gameName.charAt(2));  // --> d
 
 //break string into parts substring me dividation
 
-const newString = gameName.substring(0,4)   //4 will not be included
+const newString = gameName.substring(0,4)   //  4 will not be included
 console.log(newString);   //-->>  o/p nidh
 
 
 const anotherString = gameName.slice(-8,6)   //MOST REPEAT
 console.log(anotherString);    // ---> nidh
 
-console.log("nidhi")  //---->> checking out     _--> nidhi
+console.log("nidhi")  //---->> checking out     --> nidhi
 
 const newString1 = "    nidhi   "
 console.log(newString);    
