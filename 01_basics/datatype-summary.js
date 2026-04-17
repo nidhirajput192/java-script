@@ -49,11 +49,23 @@ Array - object
 Function - function(object)
 Object - object
 
+
 */
 
 
- //JavaScript me data types runtime par decide hote hain,
- //  isliye ye dynamically typed language hai
+
+
+
+
+
+
+//JavaScript me data types runtime par decide hote hain,
+//  isliye ye dynamically typed language hai
+
+
+
+
+
 
 
  /************************************************************* */ 
@@ -66,7 +78,7 @@ Object - object
 
  let mylife = "dreamFull"
 
- let anotherLife = mylife      //reference dia h bhaiii 
+ let anotherLife = mylife      //reference dia h bhaiii, matlab original value milta h 
  anotherLife = "chaiAurcode"
 
 console.log(mylife);           //o/p -->  dreamfull
@@ -79,7 +91,7 @@ let userOne = {
     upi : "user@ybl"
 }
 
-let userTwo = userOne;        //(userTwo ka sab user One ke equal ho gya okay)
+let userTwo = userOne;        //(userTwo ka sab userOne ke equal ho gya okay)
 
 userTwo.email= "nidhi@google.com";     //ab yaha user two ki email change kia h  
 
