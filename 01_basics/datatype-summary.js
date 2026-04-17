@@ -26,11 +26,11 @@ const bigNumber =6788994332345667886654434556677888n;   //bigint
     name : "nidhi",
     age: 19,
     marks: 200,
-}
+   }
 
 const myFunction  = function(){
     console.log("Hello World");
-}
+ }
 
 
 console.log(typeof bigNumber);

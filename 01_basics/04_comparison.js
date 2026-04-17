@@ -10,4 +10,4 @@ console.log( undefined < 0); //false
 console.log( undefined == 0); //false
 
 
-//  ==== (to compare datatype and to compare values)
+//  === (to compare datatype and to compare values)

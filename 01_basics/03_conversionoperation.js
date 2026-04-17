@@ -40,12 +40,13 @@ console.log(typeof newNumber);   // --> string
 
 let digit = 20;
 let negValue = -digit;
-console.log(negValue);
+console.log(negValue);    // -3 will be the answer
 
 
 console.log(3-3);   //0
 console.log(3+3);   //6
 console.log(3*5);   //15
+console.log(2**2);   // power aajaega
 
 
 //--->>>>addition of atrings
