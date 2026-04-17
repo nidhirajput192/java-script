@@ -1,4 +1,6 @@
 //  define numbers....
+
+
 const score = 400
 console.log(score);  //---> o/p --> 400
 
@@ -16,9 +18,10 @@ console.log(hundreds.toLocaleString('en-IN')); // 10,00,000
 
 
 
-// MATHS
+/*------------------------------ MATHS------------------------------*/
 
 //maths library by default aati h js me
+
 console.log(Math); //---> object h jisme bht saari properties h
 //--> o/p: object [Math] {}
 
