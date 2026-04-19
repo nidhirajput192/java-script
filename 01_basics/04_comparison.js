@@ -10,4 +10,21 @@ console.log( undefined < 0); //false
 console.log( undefined == 0); //false
 
 
-//  === (to compare datatype and to compare values)
+
+
+//  Strict Check -->  === (to compare datatype and to compare values)
+
+//Examples :
+console.log(null == undefined);  // true 
+console.log(null === undefined); // false 
+
+console.log("" == 0);  // true 
+console.log("" === 0); // false 
+
+/* 
+== performs type coercion before comparison,
+ while === compares both value and type without coercion.
+ 
+ Coercion ---> Ek type ko dusre type me convert karna.
+*/
+
