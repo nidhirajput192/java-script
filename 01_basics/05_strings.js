@@ -2,7 +2,7 @@
 //  example-->> "nidhi"  or 'nidhi'
 
 //   const gameName = new String('nidhi')
-//   string i sobject here not an array dont confuse
+//   string is object here not an array don't confuse
 //   0 : "n"   (key:value)
 //   1 : "i"   ( key: value) --> so on
 
@@ -27,7 +27,7 @@ console.log(gameName.charAt(2));  // --> d
 
 // .length
 // .charAt(1)
-// .toUpperCase
+// .toUpperCase()
 // .indexOf('y')
 
 //break string into parts substring me dividation

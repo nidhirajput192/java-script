@@ -34,7 +34,7 @@ console.log(Math.max(3,8,9));
 console.log(Math.min(1,7,9));
 
 console.log(Math.random()); //iski value hmesha 0 & 1 ke beech hi aati h
-console.log(Math.random()*10);   //ek value point se shift chali jaegi
+console.log(Math.random()*10);   // ek value point se shift chali jaegi
 
 console.log(Math.floor(Math.random()*10)+1);
 
