@@ -18,7 +18,7 @@ let accountState;  //<---- undefined kyuki kuch given hi nhi h
  /*
 only use const(constant decleration keyword) and let(variable declaration keyword)...
 prefer not to use var
-because of issue in block space and functional scope 
+because of issue in block scope and functional scope 
 
  
  
