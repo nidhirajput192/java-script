@@ -46,22 +46,22 @@ console.log(obj3);
 
 const users = [
     {
-        name: "nidhi",
+        name: "nidhi",                      // 0 index
         email: "niddhi@gmail.com"
     } ,
     {
-        name: "rikki",
+        name: "rikki",                       //1 index
         email: "ruhi@gmail.com"
 
     },
     {
-
+                                            // inka undefined output hoga
     },
     {
 
     },
 ]
-users[2].email
+console.log(users[0].email)
 console.log(instaUser);
 // users[1].name;
 // console.log(users);
